@@ -1,12 +1,35 @@
-# CRM Software — Full Stack Placement Project (Month 4)
+# CRM Management System (Full Stack)
+### Spring Boot • React • MySQL • Spring Security • JWT
 
 A secure, full-stack Customer Relationship Management system built to the exact project brief: manage leads, customers, tasks, and sales pipelines with role-based access for Admins and Sales Reps.
+
+## Tech Stack
+### Backend
+- Java 21
+- Spring Boot
+- Spring Security
+- Spring Data JPA
+- Hibernate
+- JWT Authentication
+- Maven
+### Frontend
+- React
+- React Router
+- Axios
+- CSS
+### Database
+- MySQL
+### Tools
+- Swagger
+- Postman
+- Git
+- GitHub
 
 ## What's Inside
 
 ```
 crm-project/
-├── crm-backend/     # Java 17 + Spring Boot 3 REST API (JWT auth, MySQL/H2)
+├── crm-backend/     # Java 21 + Spring Boot 3 REST API (JWT auth, MySQL/H2)
 └── crm-frontend/    # React 18 SPA (React Router, Axios, role-based UI)
 ```
 
@@ -60,6 +83,9 @@ password: admin123
 ## Suggested Next Steps (from the brief's "Optional Enhancements")
 
 - Add pagination to list endpoints
+- File Upload
+- Sales Analytics Dashboard
+- Docker Support
 - JUnit + Mockito backend tests
 - Notification system for tasks
 - Email sending for follow-ups
