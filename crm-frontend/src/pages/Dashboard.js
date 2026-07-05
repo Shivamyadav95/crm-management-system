@@ -10,7 +10,6 @@ import { useAuth } from "../utils/AuthContext";
 export default function Dashboard() {
   const { user } = useAuth();
 
-  const [customers, setCustomers] = useState([]);
   const [leads, setLeads] = useState([]);
   const [tasks, setTasks] = useState([]);
   const [sales, setSales] = useState([]);
@@ -30,7 +29,7 @@ export default function Dashboard() {
           saleService.getAll(),
         ]);
 
-        setCustomers(c.data.content || []);
+    
         setLeads(l.data.content || []);
         setTasks(t.data.content || []);
         setSales(s.data.content || []);

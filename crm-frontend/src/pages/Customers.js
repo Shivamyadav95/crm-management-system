@@ -41,6 +41,7 @@ const load = async () => {
 
 useEffect(() => {
   load();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
 }, [page]);
 
   const openCreate = () => {
