@@ -1,16 +1,16 @@
 # CRM Software — Backend (Spring Boot)
 
-Month 4 placement project. A secure, full-stack-ready **CRM REST API** built with Java 17 + Spring Boot 3, matching the project brief exactly: user auth, customers, leads, tasks, and sales — all with JWT authentication and role-based access (Admin / Sales).
+ A secure, full-stack-ready **CRM REST API** built with Java 21 + Spring Boot 3, matching the project brief exactly: user auth, customers, leads, tasks, and sales — all with JWT authentication and role-based access (Admin / Sales).
 
 ## Tech Stack
 
 | Layer | Technology |
 |---|---|
-| Language | Java 17 |
+| Language | Java 21 |
 | Framework | Spring Boot 3.3.4 |
 | Security | Spring Security 6 + JWT (jjwt 0.12.5) |
 | Persistence | Spring Data JPA / Hibernate |
-| Database | MySQL (spec) — H2 in-memory enabled by default for instant local runs |
+| Database | MySQL 
 | Build Tool | Maven |
 | Docs | springdoc-openapi (Swagger UI) |
 
