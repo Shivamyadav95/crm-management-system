@@ -1,6 +1,6 @@
 # CRM Software — Frontend (React.js)
 
-Month 4 placement project. React frontend for the CRM Software system, matching the project brief: login/registration, dashboard, customer/lead/task/sales management, and role-based rendering (Admin vs Sales Rep).
+ React frontend for the CRM Software system, matching the project brief: login/registration, dashboard, customer/lead/task/sales management, and role-based rendering (Admin vs Sales Rep).
 
 ## Tech Stack
 
