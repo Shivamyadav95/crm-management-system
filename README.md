@@ -3,6 +3,20 @@
 
 A secure, full-stack Customer Relationship Management system built to the exact project brief: manage leads, customers, tasks, and sales pipelines with role-based access for Admins and Sales Reps.
 
+## 🚀 Live Demo
+
+### Frontend (Vercel)
+
+https://crm-management-system-sepia.vercel.app
+
+### Backend API (Render)
+
+https://crm-management-system-t301.onrender.com
+
+### Swagger Documentation
+
+https://crm-management-system-t301.onrender.com/swagger-ui/index.html
+
 ## Tech Stack
 ### Backend
 - Java 21
