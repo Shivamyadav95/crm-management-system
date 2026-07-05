@@ -1,7 +1,7 @@
 services:
   - type: web
     name: crm-backend
-    runtime: java
+    env: java
     rootDir: crm-backend
     buildCommand: ./mvnw clean install -DskipTests
     startCommand: java -jar target/crm-backend-1.0.0.jar
