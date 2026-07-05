@@ -56,6 +56,7 @@ export default function Sales() {
 
   useEffect(() => {
     load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   const openCreate = () => {

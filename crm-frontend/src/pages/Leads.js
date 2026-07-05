@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Layout from '../components/Layout';
 import Modal from '../components/Modal';
-import StatusPill from '../components/StatusPill';
 import { leadService } from '../services/leadService';
 import { useAuth } from '../utils/AuthContext';
 import Pagination from "../components/Pagination";
@@ -38,6 +37,7 @@ export default function Leads() {
 
   useEffect(() => {
     load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [page]);
 
   const openCreate = () => {
